@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://vigorous-goldstine-b5e7de.netlify.com/* http://chiranjit.dev/:splat 301!
+https://vigorous-goldstine-b5e7de.netlify.com/* https://chiranjit.dev/:splat 301!
