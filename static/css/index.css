@@ -1,3 +1,7 @@
+
+
+
+
 body{
 	
     
@@ -6,7 +10,6 @@ body{
     font-weight: 500;
     color: white;
     padding: 0 20px;
-    font-family: "Roboto Condensed", sans-serif;
     background-color: black;
     text-align: justify;
     hyphens: auto;
@@ -19,17 +22,13 @@ body{
 .inner-div
 {
 	position:fixed;
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(255,255,255,0.95);
 	left:0%;
 	top:0%;
 	width:100%;
 	height:100%;
 	z-index:-1;
 	
-}
-
-br{
-    height: 0.5em;
 }
 
 span#smalltext{
@@ -55,29 +54,19 @@ span#smalltext{
 h2{
     font-family: "Roboto Slab", sans-serif;
     font-weight: 500;
-    color: #18ffff;
+    color: #33b5e5 !important;
     letter-spacing: 2px;
     word-spacing: 2px;
     font-size: 1.2em;
-    margin-bottom: -.2em;
+    text-align:center;
 }
 
-h3{
-    font-family: "Roboto Slab", sans-serif;
-    font-weight: 500;
-    color: #18ffff;
-    font-size: 1.1em;
-    text-align: center;
-    /*padding-top: .3em;*/
-    margin-bottom: .7em;
-    margin-top: 1.5em;
-	z-index:2 !important;
-}
 
 a{
-    color: #18ffff;
-    text-decoration: none;
+    color: #33b5e5 !important;
+    text-decoration: none !important;
     cursor: pointer;
+	font-weight:500;
 }
 
 em {
@@ -89,78 +78,85 @@ em {
 	color:#18ffff;
 }
 
-
+.pic-container{
+	position:absolute;
+	top:-80px;
+	width:100%;
+	left:0%;
+}
+.pic-container1{
+	position:absolute;
+	top:-55px;
+	width:100%;
+	left:0%;
+}
 div#pic{
-    width: 250px;
-    height: 250px;
-    background-size: 250px 250px;
-    background-color: #18ffff;
-	margin-top:20px;
-    border-radius: 250px;
-    border: 2px solid #18ffff;
-    margin-bottom: 52px;
+    width: 170px;
+    height: 170px;
+    background-size: 170px 170px;
+    background-color: #33b5e5;
+    border-radius: 50%;
+    border: 5px solid #33b5e5;
+	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
+	margin:auto;
+	background-image: url('../img/me@2x.jpg');
 }
 
 
-
-
-@media (-webkit-min-device-pixel-ratio: 3),
-(min-resolution: 400dpi) {
-    div#pic{
-        background-image: url('../img/me@3x.jpg');
-    }
+div#career{
+    width: 120px;
+    height: 120px;
+	text-align:center;
+    background: linear-gradient(60deg,#ec407a,#d81b60);
+    border-radius: 50%;
+	line-height:120px;
+	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
+	margin:auto;
+	color:white;
+	font-size:70px;
+	transition:transform 0.3s;
 }
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-    div#pic{
-        background-image: url('../img/me@2x.jpg');
-    }
-}
-@media (-webkit-max-device-pixel-ratio: 1),
-(max-resolution: 191dpi) {
-    div#pic{
-        background-image: url('../img/me@1x.jpg');
-    }
+.career-main:hover div#career{
+	  transform: scale(1.1);
+	
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 1.4em;
-        text-align: left;
-        line-height: 1.6;
-    }
-    h2 {
-        margin-top: 0em;
-    }
-    .pubbl{
-        font-size: .9em;
-        line-height: 1.5;
-    }
-    h3{
-        font-size: 1em;
-        padding-top: .5em;
-        margin-bottom: .6em;
-        margin-top: 1.8em;
-    }
-    h2, h3 {
-        letter-spacing: 2px;
-    }
-    div#pic{
-        width: 180px;
-        height: 180px;
-        background-size: 180px 180px;
-        border-radius: 180px;
-        margin-bottom: 24px;
-    }
+.info-div-col{
+	background-color:white;
+	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
+	border-radius:6px;
+	position:relative;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 500;
+	margin-bottom:100px;
 }
 
-@media screen and (max-width: 320px) {
-    body {
-		margin:auto;
-        font-size: 1.05em;
-        font-weight: 400;
-        letter-spacing: -.7px;
-        text-align: left;
-        line-height: 1.5;
-    }
-`
+
+@media screen and (min-width: 600px) {
+.info-div{
+			padding:110px 30px 50px;
+		}
+	.info-div1{
+			padding:80px 30px 50px;
+	}
+}
+@media screen and (max-width: 600px) {
+.info-div{
+			padding:110px 10px 50px;
+		}
+		.info-div1{
+			padding:80px 10px 50px;
+	}
+}
+#cv-a{
+	height:80px;
+	width:80px;
+	border:1px solid #ddd;
+	font-size:50px;
+	text-align:center;
+	transition: box-shadow 0.5s;
+}
+#cv-a:hover{
+	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
+}
+
