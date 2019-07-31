@@ -51,15 +51,7 @@ span#smalltext{
 }
 
 
-h2{
-    font-family: "Roboto Slab", sans-serif;
-    font-weight: 500;
-    color: #33b5e5 !important;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    font-size: 1.2em;
-    text-align:center;
-}
+
 
 
 a{
@@ -139,6 +131,15 @@ div#career{
 	.info-div1{
 			padding:80px 30px 50px;
 	}
+		h2{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 500;
+    color: #33b5e5 !important;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 1.5em !important;
+    text-align:center;
+}
 }
 @media screen and (max-width: 600px) {
 .info-div{
@@ -147,14 +148,23 @@ div#career{
 		.info-div1{
 			padding:80px 10px 50px;
 	}
+		h2{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 500;
+    color: #33b5e5 !important;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 1.2em !important;
+    text-align:center;
+}
 }
 #cv-a{
-	height:80px;
-	width:80px;
+	padding:10px;
 	border:1px solid #ddd;
 	font-size:50px;
 	text-align:center;
 	transition: box-shadow 0.5s;
+	text-decoration:none;
 }
 #cv-a:hover{
 	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
