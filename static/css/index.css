@@ -27,6 +27,9 @@ body{
 	z-index:-1;
 	
 }
+#container{
+	margin-top:150px;
+}
 
 span#smalltext{
     font-size: 0.6em;
@@ -110,6 +113,31 @@ div#career{
 	
 }
 
+div#contact{
+    width: 120px;
+    height: 120px;
+	text-align:center;
+    background: linear-gradient(60deg,#66bb6a,#43a047);
+    border-radius: 50%;
+	line-height:120px;
+	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
+	margin:30px;
+	color:white;
+	font-size:70px;
+	transition:transform 0.3s;
+}
+
+.contact-main:hover div#contact{
+	  transform: scale(1.1);
+	
+}
+.career-txt{
+	color:#ec407a !important;
+}
+.contact-txt{
+	color:#43a047 !important;
+}
+
 .info-div-col{
 	background-color:white;
 	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
@@ -161,6 +189,18 @@ div#career{
 }
 #cv-a:hover{
 	box-shadow:0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.4);
+}
+.email{
+	color:#b23121;
+}
+.facebook{
+	color:#3b5998;
+}
+.linkedin{
+	color:#0077B5;
+}
+.github{
+	color:#211F1F;
 }
 
 
@@ -249,4 +289,6 @@ div#career{
 }
 #c_span{
 	display:inline-block;
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
