@@ -11,106 +11,20 @@
     <meta property="og:image" content="static/img/me@2x.jpg">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Home | Chiranjit Biswas</title>
+    <title>Screenshots | InstaDeft</title>
 
     <!-- Loading CSSes -->
     <link href="static/css/index.css" rel="stylesheet" type="text/css" >
 	 <link href="static/css/animate.css" rel="stylesheet" type="text/css">
     <link href="static/css/animate.min.css"rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="shortcut icon"  href="static/img/favicon.png" type="image/x-icon" />
-
-    <!-- Loading Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
-    <script src="https://use.fontawesome.com/bb3672d00e.js"></script>
-	<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-	<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-	<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-	
-    <link rel="canonical" href="https://chiranjit.dev" />
-<script type="text/javascript">
-    var host = "chiranjit.dev";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-</script>
 
 </head>
-<body onload="setTimeout(typeWriter, 2500)">
-    <div id="main-body"></div>
-  </body>
+	<body>
+		<h1>InstaDeft Screenshots</h1>
+		 <a target="_blank" href="img_5terre.jpg">
+    			<img src="static/instadeft1.png" class="gallery" >
+  		</a>
 
-
-
-<NOSCRIPT>
-	<div id="noscript">
-		Some contact information is hidden using JavaScript.<br>
-		Please enable it (<a class="on-dark-background" title="How to enable JavaScript in your browser" href="http://www.enable-javascript.com/" target="_blank">here's how</a>) to reveal it.
-	</div>
-</NOSCRIPT>
-
-
-
-
-
-<!-- Loading Javascript -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135496523-1"></script>
-<script type="text/babel">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-135496523-1');
-  
-  
-
-var i = 0;
-var txt = 'Welcome to my website.Visit my website at your own risk. I am not responsible for wasting your time.';
-var speed = 100;
-	function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("textinfo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
-
-
-
-
-class Movediv extends React.Component {
-  render() {
-	  return (
-		<a href="home.html" className="contain-next animated bounceIn delay-3s" >
-			<div className="contain-txt" >
-				Let's Go
-			</div>
-		</a>
-	  )
-	}
-}
-
-
-class Apptest extends React.Component {
-  render() {
-	  return (
-		<div className=" inner-body">
-			<div className="animated slideInLeft hi-class" >Hi Dude,</div>
-			<div className="animated slideInLeft delay-1s how-class" >How are you?</div> 
-			<div id="textinfo" className="txt-info"></div>
-			<Movediv />
-		</div>
-		
-	  )
-	}
-}
-
-ReactDOM.render(<Apptest />, document.getElementById('main-body'))
-//ReactDOM.render(<Movediv />, document.getElementsByTagName('body'))
-
-</script>
-
-</body>
+	</body>
 </html>
