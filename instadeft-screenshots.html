@@ -24,49 +24,71 @@
 			margin:15px;
 			color:#999;
 		}
-		.gallery {
-		  margin: 5px;
-		  border: 1px solid #ccc;
-		  float: left;
-		  width: auto;
-		height:250px;
+		.gallery-wrap{
+			margin:auto;
 		}
-		.gallery img {
-			height: 100%;
+		
+		@media only screen and (max-width: 600px) {
+  			.gallery {
+				margin: 5px;
+				border: 1px solid #ccc;
+				float: left;
+				width: 100%;
+			}
+			.gallery img {
+				height: 100%;
+			}
+		
 		}
+		
+		@media only screen and (min-width: 600px) {
+  			.gallery {
+				margin: 5px;
+				border: 1px solid #ccc;
+				float: left;
+				width: auto;
+				height:250px;
+			}
+			.gallery img {
+				height: 100%;
+			}
+		}
+		
 	</style>
 </head>
 	<body>
 		<h1>InstaDeft Screenshots</h1>
-		<div  class="gallery" >
-			 <a target="_blank" href="static/instadeft1.png">
-				<img src="static/instadeft1.png">
-			</a>
-		</div>
-		<div  class="gallery" >
-			<a target="_blank" href="static/instadeft2.png">
-				<img src="static/instadeft2.png">
-			</a>
-		</div>
-		<div  class="gallery" >
-			 <a target="_blank" href="static/instadeft3.png">
-				<img src="static/instadeft3.png">
-			</a>
-		</div>
-		<div  class="gallery" >
-			 <a target="_blank" href="static/instadeft4.png">
-				<img src="static/instadeft4.png">
-			</a>
-		</div>
-		<div  class="gallery" >
-			 <a target="_blank" href="static/instadeft5.png">
-				<img src="static/instadeft5.png">
-			</a>
-		</div>
-		<div  class="gallery" >
-			 <a target="_blank" href="static/instadeft6.png">
-				<img src="static/instadeft6.png">
-			</a>
+		<div class="gallery-wrap">
+			<div  class="gallery" >
+				 <a target="_blank" href="static/instadeft1.png">
+					<img src="static/instadeft1.png">
+				</a>
+			</div>
+			<div  class="gallery" >
+				<a target="_blank" href="static/instadeft2.png">
+					<img src="static/instadeft2.png">
+				</a>
+			</div>
+			<div  class="gallery" >
+				 <a target="_blank" href="static/instadeft3.png">
+					<img src="static/instadeft3.png">
+				</a>
+			</div>
+			<div  class="gallery" >
+				 <a target="_blank" href="static/instadeft4.png">
+					<img src="static/instadeft4.png">
+				</a>
+			</div>
+			<div  class="gallery" >
+				 <a target="_blank" href="static/instadeft5.png">
+					<img src="static/instadeft5.png">
+				</a>
+			</div>
+			<div  class="gallery" >
+				 <a target="_blank" href="static/instadeft6.png">
+					<img src="static/instadeft6.png">
+				</a>
+			</div>
 		</div>
 
 	</body>
