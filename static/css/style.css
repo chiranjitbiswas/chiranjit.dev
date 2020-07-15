@@ -8,7 +8,7 @@ body {
 
 
 .slider_bg_1 {
-  background-image: url(../img/about/backcover.jpeg);
+  background-image: url(../img/backcover.jpeg);
 }
 
 .slider_area .single_slider {
@@ -162,7 +162,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url(../img/about/cirlcle.png);
+  background-image: url(../img/cirlcle.png);
   width: 531px;
   height: 504px;
   content: '';
